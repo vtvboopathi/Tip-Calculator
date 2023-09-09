@@ -23,13 +23,10 @@
     </div>
     <div class="tips-container">
       <label for="tips" class="title">Tips amount</label>
-      <p class="tip-amount" id="tip-amount"></p>
+      <p class="tip-amount" id="tip-amount">-- --</p>
     </div>
     <hr class="divider">
-    <div class="total-container">
-      <label for="total" class="title">Total amount</label>
-      <p class="total-amount" id="total"></p>
-    </div>
+    <div class="show" id="show"></div>
     <div class="tip-input-container">
       <label for="tips" class="tips">Tips% : <span id="tip-win"></span></label>
       <input type="range" name="tips" id="tip-range" class="tip-range " min="5" max="100" step="1">
@@ -38,8 +35,11 @@
       <label for="persons" class="persons">No.of people : <span id="person-win"></span></label>
       <input type="range" name="persons" id="person-range" class="person-range" min="1" max="10" step="1">
     </div>
-    <div class="show" id="show">
-
+    
+    <div class="total-container">
+      <label for="total" class="title">Total amount</label>
+      <p class="total-amount" id="total">-- --</p>
+    </div>
     </div>
   </div>
   <script src="script.js"></script>
